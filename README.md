@@ -1,0 +1,20 @@
+# PetHospital
+这是一个基于SSM框架技术的Springboot项目，旨在帮助宠物主人更好的为自己的宠物进行救治。
+2.1 Spring框架
+Spring框架是Java平台上的一种开源应用框架，提供具有控制反转特性的容器，为开发提供了一系列的解决方案，比如利用控制反转的核心特性，并通过依赖注入实现控制反转来实现管理对象生命周期容器化，利用面向切面编程进行声明式的事务管理，整合多种持久化技术管理数据访问，提供大量优秀的Web框架方便开发等等。
+2.2 Spring MVC框架
+Spring MVC框架是有一个MVC框架，通过实现Model-View-Controller模式来很好地将数据、业务与展现进行分离。从这样一个角度来说，Spring MVC和Struts、Struts2非常类似。Spring MVC的设计是围绕DispatcherServlet展开的，DispatcherServlet负责将请求派发到特定的handler。通过可配置的handler mappings、view resolution、locale以及theme resolution来处理请求并且转到对应的视图。
+2.3 MyBatis开发语言
+MyBatis是对jdbc的封装，它让数据库底层操作变的透明。mybatis的操作都是围绕一个sqlSessionFactory实例展开的。mybatis通过配置文件关联到各实体类的Mapper文件，Mapper文件中配置了每个类对数据库所需进行的sql语句映射。在每次与数据库交互时，通过sqlSessionFactory拿到一个sqlSession，再执行sql命令。
+2.4 SpringBoot框架
+Spring Boot是 Pivotal团队为新 Spring应用程序开发的一个新框架。这个框架采用了一种特殊的方法来进行组态，使得开发者不必再去定义模板的组态。SpringBoot以 Spring4.0为基础，它不但保留了其原有的优点，同时也使 Spring程序的构建和开发流程更加简单。此外， SpringBoot还很好地解决了一些问题，如将许多框架整合在一起，从而避免了依赖软件的版本冲突，并使得引用的不稳定等问题有了很好的解决办法。
+2.5 Layui框架
+Layui是一款采用自身模块规范编写的前端 UI框架，遵循原生HTML/CSS/JS的书写与组织形式，门槛极低，拿来即用。其外在极简，却又不失饱满的内在，体积轻盈，组件丰盈，从核心代码到API的每一处细节都经过精心雕琢，非常适合界面的快速开发。
+
+操作系统：Windows
+Java开发包：JDK8
+开发工具：IntelliJ IDEA
+数据库：MySQL5-8.0
+浏览器：GoogleChrome
+Web前端：jsp、Thymeleaf ，jQuery，LayUI
+Web后端：springboot
